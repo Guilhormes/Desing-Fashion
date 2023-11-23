@@ -24,7 +24,7 @@ nav ul {
     position: relative;
   }
   
-  nav li {
+.nav-list li {
     margin-left: 30px;
     position: relative;
     opacity: 0;
@@ -48,7 +48,7 @@ nav ul {
     animation-delay: 1.2s;
   }
   
-  nav li::after {
+  .nav-list li::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -60,17 +60,17 @@ nav ul {
     transition: all 0.3s ease;
   }
   
-  nav li:hover::after {
+  .nav-list li:hover::after {
     width: 100%;
   }
   
-  nav a {
+  .nav-list a {
     text-decoration: none;
     font-size: 18px;
     transition: all 0.3s ease-in-out;
   }
   
-  nav a:hover {
+  .nav-list a:hover {
     color: #00c3ff;
   }
 
