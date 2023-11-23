@@ -28,4 +28,8 @@
     .menu-toggle {
         display: flex;
     }
+
+    .logo img{
+        height: 3rem;
+    }
 }

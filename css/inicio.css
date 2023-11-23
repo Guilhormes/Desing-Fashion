@@ -1,0 +1,28 @@
+/* section inicio */
+#inicio-section {
+    background-color: #E3E3E1;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .inicio-texto h1 {
+    font-size: 60px;
+    margin-left: 100px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 20px;
+  }
+  
+  .inicio-texto p{
+    font-size: 17px;
+    margin-left: 100px;
+    max-width: 500px;
+  }
+  
+  .img-inicio {
+    height: 130vh;
+    margin-top: 300px;
+    margin-right: 30px;
+  }
