@@ -1,0 +1,27 @@
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
+
+/* geral */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+  font-family: 'Archivo', sans-serif;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00c3ff;
+  border-radius: 10px;
+}
