@@ -32,4 +32,47 @@
     .logo img{
         height: 3rem;
     }
+
+    .inicio-texto h1 {
+        margin-left: 50px;
+      }
+      
+      .inicio-texto p{
+        margin-left: 50px;
+      }
+
+    #inicio-section{
+        overflow: hidden;
+    }
+
+    #centro-distribuicao img {
+        height: 30vh;
+      }
 }
+
+@media screen and (max-width: 900px) { 
+    .sobre-texto {
+        max-width: 800px;
+        text-align: left;
+        margin: 0px 20px 0px 20px;
+      }
+}
+
+
+@media screen and (max-width: 1075px) {
+    .logo img{
+        height: 3rem;
+    }
+
+    .img-inicio {
+        height: 130vh;
+        margin-top: 300px;
+        margin-right: 0px;
+      }
+
+    #historia-section{
+        overflow: hidden;
+    }
+
+}
+
