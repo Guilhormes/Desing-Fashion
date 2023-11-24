@@ -1,19 +1,3 @@
-// animação nav-bar
-document.addEventListener("DOMContentLoaded", function () {
-  var nav = document.querySelector("nav");
-
-  setTimeout(function () {
-    nav.classList.add("show-nav");
-  }, 500);
-});
-
-// digitação animação
-const textElement = document.getElementById("typing-text");
-const texts = ["front-end", "back-end", "full-stack"];
-let index = 0;
-let charIndex = 0;
-let isDeleting = false;
-
 function type() {
   const currentText = texts[index];
   if (isDeleting) {
