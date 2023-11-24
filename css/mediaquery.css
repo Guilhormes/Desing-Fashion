@@ -1,6 +1,12 @@
+
+
 @media screen and (max-width: 600px) {
   .historia-imagem img {
     max-height: 35vh; 
+  }
+
+  #diferenciais-section{
+    height: 180vh !important;
   }
 }
 
@@ -54,7 +60,17 @@
   #centro-distribuicao img {
     height: 30vh;
   }
+
+  #diferenciais-section{
+    height: 160vh;
+  }
+
+  .diferencial-titulo h2{
+    margin-top: 30px;
+  }
 }
+
+
 
 @media screen and (max-width: 900px) {
   .sobre-texto {
